@@ -1,7 +1,8 @@
 <h1>CPF Validator</h1>
 
-<h2>How to use:</h2> 
+<br>
 
+<h2>How to use:</h2> 
 
 <h3>1. Paste your cpf on inputCpf variable </h3>
 
@@ -16,7 +17,6 @@
 <br>
      
      npm run dev
-
 
 <hr>
 

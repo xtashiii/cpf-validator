@@ -1,0 +1,13 @@
+{
+  "name": "cpf-validator",
+  "version": "1.0.0",
+  "description": "cpf validator with javascript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/validateCpf"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

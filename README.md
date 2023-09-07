@@ -1,8 +1,9 @@
-<h1>CPF Validator</h1>
+<div align=center>
+ <h1>CPF Validator</h1> 
+</div>
 
-<br>
 
-<h2>How to use:</h2> 
+<h1>How to use:</h1> 
 
 <h3>1. Paste your cpf on 'cpf' class instance</h3>
 

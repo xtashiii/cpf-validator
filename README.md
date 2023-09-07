@@ -1,16 +1,23 @@
-# CPF Validator
+<h1>CPF Validator</h1>
 
-## How to use:
+<br>
 
-1.  Copy and paste your cpf on 'cpf' class instance
+<h2>How to use:</h2> 
 
-    file: ```src/cpf.js```
+<h3>1. Paste your cpf on 'cpf' class instance </h3>
 
-2. Run the follow commands:
+<span>path:</span> ```src/cpf.js```
 
-### Commands
+<hr>
+
+<h3>2. Run the follow commands:</h3>    
  
+     cd src
+     
+<br>
+     
+     npm run dev
 
-$ ```cd src```
+<hr>
 
-$ ```npm run dev```
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=200&size=22&pause=1000&color=BAA7F7&width=435&lines=by+xtashiii" alt="Typing SVG" /></a>

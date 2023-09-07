@@ -4,7 +4,7 @@
 
 <h2>How to use:</h2> 
 
-<h3>1. Paste your cpf on 'cpf' class instance </h3>
+<h3>1. Paste your cpf on 'cpf' class instance</h3>
 
 <span>path:</span> ```src/cpf.js```
 

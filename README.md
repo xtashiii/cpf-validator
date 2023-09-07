@@ -63,6 +63,8 @@
 
 <br>
 
+<hr>
+
 <h2>With this, we repeat the same multiplication calculation, but now including the 3 at the end and also starting to multiply by 11.</h2>
 
 <div align=center>

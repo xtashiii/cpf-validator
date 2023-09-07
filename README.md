@@ -2,7 +2,7 @@
 
 ## How to use:
 
-1.  Copy and paste your cpf on inputCpf
+1.  Copy and paste your cpf on 'cpf' class instance
 
     file: ```src/cpf.js```
 

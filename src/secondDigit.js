@@ -13,9 +13,13 @@ for (let i = 0; i < cpfMultiplied2.length; i++) {
   total += cpfMultiplied2[i];
 }
 
-const secondDigit = 11 - (total % 11);
+let secondDigit = 11 - (total % 11);
+
+if (secondDigit > 9) {
+  secondDigit = 0;
+}
+
 const cpfWithSecondDigit = [...cpfWithFirstDigit];
 cpfWithSecondDigit.push(String(secondDigit));
-
 
 export default cpfWithSecondDigit;

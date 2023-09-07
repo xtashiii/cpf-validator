@@ -1,15 +1,17 @@
-import cpfWithSecondDigit from "./secondDigit.js"
-import cpfWithoutDot from "./cpf.js"
+import cleanCpf from "./cpf.js";
+import cpfWithSecondDigit from "./secondDigit.js";
 
-let cpfFinal = ''
+let finalCpf = ''
+
 cpfWithSecondDigit.map((n) => {
-  cpfFinal += n  
-})
+  finalCpf += n
+});
 
-if (cpfFinal === cpfWithoutDot) {
-  console.log(`CPF: ${cpfFinal} IS VALID`)
+if (finalCpf === cleanCpf)
+{
+  console.log(`CPF: ${finalCpf} valido`);
 }
-else {
-  console.log(cpfFinal)
-  console.log(`CPF dont match`)
+else
+{
+  console.log('CPF invalido');
 }

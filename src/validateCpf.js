@@ -1,17 +1,15 @@
-import cleanCpf from "./cpf.js";
+import cpf from "./cpf.js";
 import cpfWithSecondDigit from "./secondDigit.js";
 
-let finalCpf = ''
+let finalCpf = '';
 
 cpfWithSecondDigit.map((n) => {
-  finalCpf += n
+  finalCpf += n;
 });
 
-if (finalCpf === cleanCpf)
-{
-  console.log(`CPF: ${finalCpf} valido`);
+if (cpf.isSequence()) {
+  console.log('[CPF INVALIDO] pois é uma sequencia');
 }
-else
-{
-  console.log('CPF invalido');
+else {
+  finalCpf === cpf.cleanCpf ? console.log(`CPF: ${finalCpf}\n[É VALIDO]`) : console.log('[CPF INVALIDO]');
 }

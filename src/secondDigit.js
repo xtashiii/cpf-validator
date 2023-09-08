@@ -3,7 +3,7 @@ import cpfWithFirstDigit from "./firstDigit.js";
 let total = 0;
 let count = 12;
 
-const cpfMultiplied2 = []
+const cpfMultiplied2 = [];
 cpfWithFirstDigit.forEach((n) => {
   count -= 1;
   cpfMultiplied2.push(Number(n) * count);

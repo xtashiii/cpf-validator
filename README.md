@@ -1,5 +1,5 @@
 <div align=center>
- <h1>CPF Validator</h1> 
+ <h1>CPF Validator v3</h1> 
 </div>
 
 
